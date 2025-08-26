@@ -18,3 +18,79 @@
     flex-direction: column;
 }
 
+.hero h1{
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 40px;
+
+}
+
+.signup-box{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 800px;
+    background: #fff;
+
+}
+
+.left-box{
+    padding: 50px;
+    background: #6b00d5;
+    flex-basis: 50%;
+    flex-grow: 1;
+    color: #fff;
+}
+
+.right-box{
+    padding: 50px;
+    flex-grow: 1;
+    flex-basis: 50%;
+
+
+}
+
+.input-box{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #fff;
+    outline: none;
+    color: #fff;
+    font-size: 12px;
+    background: transparent;
+    border-radius: 20px;
+}
+
+::placeholder{
+    color: #fff;
+}
+
+input[type= checkbox]{
+    margin-top: 30px;
+}
+
+.left-box label{
+    font-size: 14px;
+}
+.left-box button{
+    width: 100%;
+    background: #fff;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    
+}
+
+.input-box button:hover{
+    /* font-weight: 500 ;
+    background: #000;
+    color: #fff; */
+
+   transition: 0.3s ease-in-out ;
+}
