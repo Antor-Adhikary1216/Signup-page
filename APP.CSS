@@ -126,3 +126,27 @@ border-radius: 20px;
     font-size: 18px;
     margin-right: 10px;
 }
+.fb-link{
+    background: #1778f2;
+}
+.tw-link{
+    background-color: #1da1f2;
+}
+.g-link{
+    background: #ea4335;
+}
+.git-link{
+    background: #722d27;
+}
+
+
+.login{
+    color: #fff;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.login a{
+    color: #ea4335;
+    text-decoration: none;
+}
